@@ -1,0 +1,22 @@
+//TestCase 2: Some simple tests
+program PROG
+	declare a, b, c enddeclare
+/*	function func1()
+		declare x, a enddeclare
+		//x:=a;
+		//x:=y;
+		return 1;
+	endfunction  */
+	
+/*	procedure procc()
+	endprocedure */
+	
+/*	procedure procc()
+		declare enddeclare
+	endprocedure */
+	
+	//a:=1;
+	//a:=b;
+	//a:=6+6;
+	//a:=a+a;
+endprogram

@@ -1,0 +1,11 @@
+//TestCase 3: Testing true and false constants
+program PROG
+	declare a, b, c enddeclare
+	while true
+		a:=5;
+	endwhile;
+	
+	while false
+		b:=6;
+	endwhile;
+endprogram

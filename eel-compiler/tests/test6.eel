@@ -1,0 +1,13 @@
+//TestCase 6: More testing for function call
+program PROG
+	declare a, b, c enddeclare
+	
+	function func1(in x, inout y)
+		declare z1, z2 enddeclare
+		
+		z1 := 5;
+		return z1;
+	endfunction
+	
+	a := func1(in a, inout b);
+endprogram

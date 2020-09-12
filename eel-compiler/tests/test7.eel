@@ -1,0 +1,15 @@
+//TestCase 7: Testing if and if-else
+program simple
+	declare a, b enddeclare
+	
+	if a=b then
+		a:=1;
+	endif;
+	
+	if a=b then
+		a:=2;
+	else
+		a:=3;
+	endif;
+	
+endprogram

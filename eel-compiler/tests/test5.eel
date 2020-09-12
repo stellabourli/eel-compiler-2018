@@ -1,0 +1,11 @@
+//TestCase 5: Testing Parameters, and Function calling
+program PROG
+	declare a, b, c enddeclare
+	
+	procedure proc1(in x, inout y)
+		declare z1, z2 enddeclare
+		x:=1;
+	endprocedure
+	
+	call proc1(in a, inout b);
+endprogram

@@ -1,0 +1,39 @@
+//TestCase 1: Testing loadrv, and storevr
+program PROG
+	declare a, b, c enddeclare
+
+	procedure procl(in x, inout y)
+		declare z1, z2 , z3 enddeclare
+		
+		procedure proc2()
+			declare enddeclare
+			procedure proc3()
+				procedure proc4(in z2, inout z3)
+					declare o, p enddeclare
+					
+					//Testing loadvr
+					//o:=z1;
+					//o:=x;
+					//o:=y;
+					
+					//Testing storerv
+					//z1:=o;
+					//x:=o;
+					//y:=o;
+					
+				endprocedure;
+			endprocedure;
+			
+			//Testing loadvr
+			//x:=a;
+			//x:=y;
+			//z1:=y;
+		
+			//Testing storerv
+			//a:=x;
+			//y:=x;  
+			y:=z1;
+			
+		endprocedure; 
+	endprocedure;
+endprogram

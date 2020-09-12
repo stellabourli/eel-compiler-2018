@@ -1,0 +1,22 @@
+//TestCase 4: Testing some simple instructions
+program PROG
+	declare a, b, c enddeclare
+	
+		//Jump
+		if true then
+			a:=1;
+		endif;
+		
+		//Jump
+		if a>b then
+			a:=2;
+		endif;
+		
+		//Print
+		print a;
+		
+		//Scan
+		input a;
+endprogram
+		
+		

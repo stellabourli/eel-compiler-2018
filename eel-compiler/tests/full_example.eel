@@ -1,0 +1,78 @@
+program example4
+	declare a, b, c, d  enddeclare
+
+	procedure proc ()
+	endprocedure
+
+	a := 1;
+	b := 2;
+	d := 2;
+	
+	//input a;
+	//print a;
+	//print -1;
+
+  //call proc();
+
+	/*
+	c := a + b;
+	print(c);
+	c := a - b;
+	print(c);
+	c := a * b;
+	print(c);
+	c := (a*10) / b;
+	print(c);
+	*/
+
+
+	/*
+	if false then
+		print(a)
+	else
+		print(b)
+	endif;
+	*/
+
+	/*
+	while d>0
+		print(a);
+		d := d - 1;
+	endwhile;
+	*/
+
+	/*
+	d := 0;
+	repeat
+		if d=1 then
+			exit
+		endif;
+		print(d);
+		d := d+1
+	endrepeat;
+	*/
+
+	/*
+	switch a
+		case 1:
+			print a
+		case 2:
+			print b
+	endswitch;
+	*/
+
+	/*
+	d := 0;
+	forcase
+		when d<2:
+			print(a);
+			d := d+1
+		when d>=2 and d<4:
+			print(b);
+			d := d+1
+	endforcase;
+	*/
+
+	//a := -13 -(-2);
+
+endprogram
